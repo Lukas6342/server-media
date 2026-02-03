@@ -16,41 +16,31 @@
   "gamemodes": {
     "Bedwars": {
       "name": "Bedwars", 
-      "color": "#16A600",
+      "color": "#ffc300",
       "command": "/qj Bedwars"
-    },
-    "Schach": {
-      "name": "Schach", 
-      "color": "#00F0F0",
-      "command": "/qj Chess"
     },
     "Skywars": {
       "name": "Skywars", 
-      "color": "#0020D4",
+      "color": "#ffc300",
       "command": "/qj Skywars"
+    },
+    "Schach": {
+      "name": "Schach", 
+      "color": "#ffc300",
+      "command": "/qj Chess"
     },
     "MarioKart": {
       "name": "Mario Kart", 
-      "color": "#960000",
+      "color": "#ffc300",
       "command": "/qj MarioKart"
-    },
-    "colormatch": {
-      "name": "ColorMatch", 
-      "color": "#660057",
-      "command": "/cm join"
     }
-  },
-  "chat": {
-    "message_formats": [
-      "^§[a-f0-9](?<rank>\\w+) \\| (?<sender>\\w+) §8: (?<message>.*)$"
-    ]
   },
   "discord": {
     "server_id": 1352958946562015263,
     "rename_to_minecraft_name": false
   },
   "brand": {
-    "primary": "#0384fc",
+    "primary": "##9BCC56",
     "background": "#1703fc",
     "text": "#FFFFFF"
   }, 
