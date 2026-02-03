@@ -1,34 +1,38 @@
 {
-  "server_name": "pascalpex",
-  "nice_name": "Pascalpex",
-  "direct_ip": "pascalpex.de",
+  "server_name": "arenarush",
+  "nice_name": "ArenaRush",
+  "direct_ip": "arenarush.de",
+  "server_wildcards": [
+    "%.arenarush.de"
+  ],
   "supported_languages": [
     "de"
   ],
   "social": {
-    "web": "https://pascalpex.de",
-    "discord": "https://discord.gg/NfmMy3Y"
+    "web": "https://arenarush.de",
+    "discord": "https://discord.gg/w3KwEDAVjg",
+    "youtube": "https://www.youtube.com/@ArenaRushde"
   },
   "gamemodes": {
-    "paintball": {
-      "name": "Paintball", 
+    "Bedwars": {
+      "name": "Bedwars", 
       "color": "#16A600",
-      "command": "/pb join"
+      "command": "/qj Bedwars"
     },
-    "knockffa": {
-      "name": "KnockFFA", 
+    "Schach": {
+      "name": "Schach", 
       "color": "#00F0F0",
-      "command": "/kf join"
+      "command": "/qj Chess"
     },
-    "freebuild": {
-      "name": "Freebuild", 
+    "Skywars": {
+      "name": "Skywars", 
       "color": "#0020D4",
-      "command": "/warp Freebuild"
+      "command": "/qj Skywars"
     },
-    "tntrun": {
-      "name": "TNTRun", 
+    "MarioKart": {
+      "name": "Mario Kart", 
       "color": "#960000",
-      "command": "/tntrun join"
+      "command": "/qj MarioKart"
     },
     "colormatch": {
       "name": "ColorMatch", 
@@ -42,7 +46,7 @@
     ]
   },
   "discord": {
-    "server_id": 676506634213916674,
+    "server_id": 1352958946562015263,
     "rename_to_minecraft_name": false
   },
   "brand": {
